@@ -1,0 +1,154 @@
+/* *{
+    position: relative;
+} */
+
+#wrapper{
+    position:static;
+    /* display: flex; */
+    justify-content: center;
+    
+}
+
+
+body{ 
+    margin:0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    padding: 1px;
+    text-align: center;
+    background: #788f58;
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+  }
+
+ 
+
+  .div-left{
+    width: 50%;
+    /* border-right: 2.5px solid #788f58; */
+    float: left;
+    align-items: flex-end;
+    /* text-align: right; */
+    /* border: 1px solid red; */
+  }
+  
+  .div-right{
+    /* border: 1px solid blue; */
+    width: 50%;
+    overflow: hidden;
+    float:left;
+    /* border-left: 1px solid #788f58; */
+  }
+
+  .div-left section div {
+    text-align: right;
+    align-items: right;
+    margin-right: 7%;
+  }
+
+  .div-right section div {
+    text-align: left;
+    align-items: left;
+    /* margin-left: 35%; */
+  }
+
+  .timeline-area-left{
+    /* margin-right: 7%;  */
+    border-right: 1.5px solid #788f58;
+     /* padding: 0 20px 0 30px; */
+  }
+
+  .timeline-area-right{
+    /* border-left:1px solid #788f58; */
+    /* position: relative; */
+  }
+
+  .timeline-area-left div {
+    /* padding: 10px; */
+    font-size: 16px;
+    line-height: 1.3;
+    position:relative;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 2%;
+  }
+
+  .timeline-area-right div {
+    font-size: 16px;
+    line-height: 1.3;
+    position:relative;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 2%;
+    margin-left: 9%;
+    /* opacity:0.8; */
+  }
+
+   .timeline-area-left div:after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 1px;
+    border-radius: 50%;
+    background-color: #788f58;
+    position: absolute;
+    top: 17%;
+    left:102.2%;
+  } 
+
+  .timeline-area-left div:before{
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #788f58;
+    position: absolute;
+    top: 9%;
+    left:106.6%;
+  } 
+
+  .timeline-area-right div:after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 1px;
+    border-radius: 50%;
+    background-color: #788f58;
+    /* border: #788f58; */
+    position: absolute;
+    top: 17%;
+    /* left: ; */
+    /* left: 625px; */
+    right:103.6%;
+  } 
+
+  .timeline-area-right div:before{
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #788f58;
+    /* border: #788f58; */
+    position: absolute;
+    top: 9%;
+    right:107.6%;
+  }
+
+  .stack-top {
+    z-index: 9;
+    margin-left: -7px;
+  }
+
+  li {
+    list-style-type: square !important;
+  }
+
+  #p-margin-fix {
+    text-align: right;
+    margin-left: 80px;
+  }
