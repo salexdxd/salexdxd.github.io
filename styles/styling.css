@@ -1,6 +1,7 @@
-/* *{
-    position: relative;
-} */
+*{
+  font-family: 'Noto Serif Georgian', serif;
+  /* font-size: 98%; */
+}
 
 #wrapper{
     position:static;
