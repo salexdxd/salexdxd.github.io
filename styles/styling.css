@@ -11,7 +11,7 @@
 
 body {
   margin: 0 auto;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   -webkit-text-size-adjust: none;
   white-space: nowrap;
 }
@@ -186,7 +186,7 @@ li {
 
 @media screen and (max-width: 928px) and (min-width: 919px) {
   .timeline-area-right div:before {
-    right: 100.2%;
+    right: 106.8%;
   }
 }
 
