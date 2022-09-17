@@ -83,7 +83,7 @@ ul {
   display: inline-block;
   place-items: center;
   position: relative;
-  left: 6.9%;
+  left: 6.7%;
 }
 
 /* creating a horizontal line for left div */
@@ -108,7 +108,7 @@ ul {
   display: inline-block;
   place-items: center;
   position: relative;
-  left: -6.9%;
+  left: -6.8%;
 }
 
 /* creating a horizontal line for right div */
