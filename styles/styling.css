@@ -5,8 +5,6 @@
 }
 
 body {
-  /* justify-content: center !important;  */
-  /* position: relative; */
   margin: 2%;
   max-width: 1200px;
   margin: auto;
@@ -28,7 +26,6 @@ body {
   display: flex;
   justify-content: center !important;
   align-items: center !important;
-  /* font-family: pop; */
   flex-direction: column;
 }
 
