@@ -166,6 +166,11 @@ ul {
 .skill-num {
   padding-left: 2%;
 }
+
+.my-exp-list {
+  padding-left: 4%;
+}
+
 .my-exp-list li {
   padding-top: 3%;
   list-style-type: square !important;
