@@ -5,15 +5,17 @@
 }
 
 body {
+  /* justify-content: center !important;  */
+  /* position: relative; */
   margin: 2%;
   max-width: 1200px;
+  margin: auto;
   -webkit-text-size-adjust: none;
   white-space: normal;
 }
 
 .header {
   width: 100%;
-
   text-align: center;
   background: #788f58;
   color: white;
@@ -23,9 +25,9 @@ body {
 .main {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: pop;
+  justify-content: center !important;
+  align-items: center !important;
+  /* font-family: pop; */
   flex-direction: column;
 }
 
